@@ -2,257 +2,58 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Webino</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
   <link rel="stylesheet" href="./css/inicial.css">
   <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
-    integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
-    crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
-    integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
-    crossorigin="anonymous"></script>
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css"
-    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js"
-    integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
-    crossorigin="anonymous"></script>
 </head>
 
 <body>
 
-
   <div class="main">
 
     <section class="navbar">
-      <div class="navbar">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-          <a class="navbar-brand" href="#">Webino</a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto">
-              <li class="nav-item active">
-                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
-                  aria-haspopup="true" aria-expanded="false">
-                  Dropdown
-                </a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <a class="dropdown-item" href="#">Action</a>
-                  <a class="dropdown-item" href="#">Another action</a>
-                  <div class="dropdown-divider"></div>
-                  <a class="dropdown-item" href="#">Something else here</a>
-                </div>
-              </li>
-
-            </ul>
-
-          </div>
-        </nav>
-      </div>
+      <!-- Navbar code here -->
     </section>
 
     <section class="mt-5 p-5">
-
       <p class="h1 text-center" id="typing-effect"></p>
-
-
-      <script>
-        const text = "Bem-vindo ao nosso Cassino Online!";
-        const typingElement = document.getElementById("typing-effect");
-
-        let index = 0;
-
-        function typeText() {
-          typingElement.textContent = text.slice(0, index);
-          index++;
-
-          if (index <= text.length) {
-            setTimeout(typeText, 100); // Ajuste o tempo entre cada caractere aqui
-          }
-        }
-
-        typeText();
-      </script>
-
-
-      <div class="container">
-
-
-
-      </div>
     </section>
 
-
     <section class="mt-5 p-5">
+      <!-- Minigames content here -->
+    </section>
 
-      <hr>
-      <h1 class="p-10 text-primary">Nossos Minigames</h1>
-      <section class="mt-5 p-5">
-        <div class="card-deck">
-          <div class="card">
-            <img class="card-img-top img-fluid" src="./imgs/caça niquel.jpg" alt="Card image cap">
-            <div class="card-body">
-              <h5 class="card-title h3">Caça Níquel</h5>
-              <a href="#" class="btn btn-primary h1">Jogar Agora!</a>
-              <p class="card-text"><small class="text-muted"></small></p>
-            </div>
-          </div>
-          <div class="card">
-            <img class="card-img-top img-fluid" src="./imgs/roleta.jpg" alt="Card image cap">
-            <div class="card-body">
-              <h5 class="card-title h3">Roleta</h5>
-              <a href="#" class="btn btn-primary">Jogar Agora!</a>
-              <p class="card-text"><small class="text-muted"></small></p>
-            </div>
-          </div>
-          <div class="card">
-            <img class="card-img-top img-fluid" src="./imgs/dados.jpg" alt="Card image cap">
-            <div class="card-body">
-              <h5 class="card-title h3">Lançar Dados</h5>
-              <a href="#" class="btn btn-primary">Jogar Agora!</a>
-              <p class="card-text"><small class="text-muted"></small></p>
-            </div>
-          </div>
-        </div>
-
-        <br>
-        <h1 class="p-10 text-primary">Aproveite nosso sistema de sorteios!</h1>
-        <div class="card mb-3">
-          <img class="card-img-top img-fluid" src="./imgs/sorteio.jpg" width="400px" height="600px"
-            alt="Card image cap">
-          <div class="card-body">
-            <h5 class="card-title">Sorteio</h5>
-            <a href="#" class="btn btn-primary h1">Jogar Agora!</a>
-            <p class="card-text"><small class="text-muted"></small></p>
-          </div>
-        </div>
-
-
-
-        <section class="mt-5 p-5">
-          <h1 class="p-10 text-primary">Favoritos do Cristiano Ronaldo</h1>
-          <div class="card mb-3">
-            <img class="card-img-top img-fluid" src="./imgs/cristiano.jpg" alt="Card image cap">
-            <div class="card-body">
-            </div>
-            <div class="card-deck">
-              <div class="card">
-                <img class="card-img-top img-fluid" width="200px" height="200px" src="./imgs/dominó.jpg"
-                  alt="Card image cap">
-                <div class="card-body">
-                  <h5 class="card-title h3">Dominó</h5>
-                  <a href="#" class="btn btn-primary h1">Jogar Agora!</a>
-                  <p class="card-text"><small class="text-muted"></small></p>
-                </div>
-              </div>
-              <div class="card">
-                <img class="card-img-top img-fluid" width="200px" height="200px" src="./imgs/poker.jpg"
-                  alt="Card image cap">
-                <div class="card-body">
-                  <h5 class="card-title h3">Poker</h5>
-                  <a href="#" class="btn btn-primary">Jogar Agora!</a>
-                  <p class="card-text"><small class="text-muted"></small></p>
-                </div>
-              </div>
-              <div class="card">
-                <img class="card-img-top img-fluid" width="200px" height="200px" src="./imgs/bingo.jpg"
-                  alt="Card image cap">
-                <div class="card-body">
-                  <h5 class="card-title h3">bingo</h5>
-                  <a href="#" class="btn btn-primary">Jogar Agora!</a>
-                  <p class="card-text"><small class="text-muted"></small></p>
-                </div>
-              </div>
-            </div>
-            <br>
-
-
-            <h1 class="p-10 text-primary">Nossos Joguinhos Online</h1>
-
-            <div class="card-deck">
-              <div class="card">
-                <img class="card-img-top img-fluid" width="200px" height="200px" src="./imgs/dino-t-rex.png"
-                  alt="Card image cap">
-                <div class="card-body">
-                  <h5 class="card-title h3">Dino T-Rex</h5>
-                  <a href="#" class="btn btn-primary h1">Jogar Agora!</a>
-                  <p class="card-text"><small class="text-muted"></small></p>
-                </div>
-              </div>
-              <div class="card">
-                <img class="card-img-top img-fluid" width="200px" height="200px" src="./imgs/flappy-bird.png"
-                  alt="Card image cap">
-                <div class="card-body">
-                  <h5 class="card-title h3">Flappy Bird</h5>
-                  <a href="#" class="btn btn-primary">Jogar Agora!</a>
-                  <p class="card-text"><small class="text-muted"></small></p>
-                </div>
-              </div>
-              <div class="card">
-                <img class="card-img-top img-fluid" width="200px" height="200px" src="./imgs/snake-game.jpg"
-                  alt="Card image cap">
-                <div class="card-body">
-                  <h5 class="card-title h3">Jogo da Cobrinha</h5>
-                  <a href="#" class="btn btn-primary">Jogar Agora!</a>
-                  <p class="card-text"><small class="text-muted"></small></p>
-                </div>
-              </div>
-            </div>
-
-
-
-
-
-
-
-            <footer class="site-footer p-5">
-              <div class="container">
-                  <div class="row">
-                      <div class="col-md-4">
-                          <div class="footer-logo">
-                              <img src="logo.png" alt="Logo do Cassino Online">
-                          </div>
-                      </div>
-                      <div class="col-md-4">
-                          <h5>Links</h5>
-                          <ul class="footer-links">
-                              <li><a href="sobre-nos.html">Sobre Nós</a></li>
-                              <li><a href="jogos.html">Jogos</a></li>
-                              <li><a href="promocoes.html">Promoções</a></li>
-                              <li><a href="politica-de-privacidade.html">Política de Privacidade</a></li>
-                              <li><a href="termos-e-condicoes.html">Termos e Condições</a></li>
-                          </ul>
-                      </div>
-                      <div class="col-md-4">
-                          <h5>Contato</h5>
-                          <p>Email: contato@cassinonline.com</p>
-                          <p>Telefone: +123 456 789</p>
-                      </div>
-                  </div>
-              </div>
-              <div class="footer-bottom">
-                  <div class="container">
-                      <p>&copy; 2023 Cassino Online. Todos os direitos reservados.</p>
-                  </div>
-              </div>
-          </footer>
-
+    <footer class="site-footer p-5">
+      <!-- Footer content here -->
+    </footer>
 
   </div>
 
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+    integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+    crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script>
+    const text = "Bem-vindo ao nosso Cassino Online!";
+    const typingElement = document.getElementById("typing-effect");
+
+    let index = 0;
+
+    function typeText() {
+      typingElement.textContent = text.slice(0, index);
+      index++;
+
+      if (index <= text.length) {
+        setTimeout(typeText, 100);
+      }
+    }
+
+    typeText();
+  </script>
 </body>
 
 </html>
