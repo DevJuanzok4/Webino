@@ -1,0 +1,36 @@
+/* Estilos para o footer */
+.site-footer {
+    background-color: #f8f9fa;
+    padding: 30px 0;
+    color: #333;
+}
+
+.footer-logo img {
+    max-width: 150px;
+}
+
+.footer-links li {
+    list-style: none;
+    margin-bottom: 10px;
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: #555;
+}
+
+.footer-bottom {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+
+/*Card*/
+/* Estilo para definir o tamanho das imagens dos cards */
+.card-img-top {
+    width: 200px; /* Defina a largura desejada */
+    height: 200px; /* Defina a altura desejada */
+    object-fit: cover; /* Para manter a proporção e cobrir o espaço */
+}
